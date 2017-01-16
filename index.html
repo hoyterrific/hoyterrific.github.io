@@ -5,71 +5,129 @@
 		<style>
 			body {
 				margin: 0;
-				padding: 0;
-				background-color: #FFFFF;
+				background-color: #26292e;
 			}
 			
-			div {
-				    border-radius: 25px;
-					background: #9f9f9f;
-					padding: 20px; 
-					width: 2048px;
-					height: 50px; 
+			.bar {
+					background: #4c5461;
+					position: fixed;
+					top: 0px;
+					width: 100%;
+			}
+			
+			.title{
+				background-color: #ff807a;
+				height: 33%;
+				margin-bottom: 5%;
+			}
+			
+			.imgContainer{	
+				
+			}
+			
+			.images{
+				background: #26292e
+			}
+			
+			.task {
+				display:inline-block;
+				margin:5px 20px;
+				padding:5px;
+				position: relative;
+				
+			}
+			
+			.mid {
+				text-align:inline;
+				position: relative;
+			}
+			
+			.bar{
+				display: block;
+				position: relative;
+				
 			}
 			
 		</style>
 	</head>
 	<body>
-		<h1>  </h1>
-		<img src="images/cover.jpg" alt="Mountain View" style="width:2048px;height:995px;">
-		<div>
-			<a href="default.asp">
-				<img src="images/home.jpg" alt="HTML tutorial" style="width:100px;height:50px;border:0;">
-				<img src="images/about.jpg" alt="HTML tutorial" style="width:100px;height:50px;border:0;">
-				<img src="images/resume.jpg" alt="HTML tutorial" style="width:100px;height:50px;border:0;">
+		
+		<div class = "bar">
+			<a>
+				<a href="index.html">
+					<img src="images/home.png" style= "width:4%; height:4%;" hspace = 2%>
+				</a>
+				<a href="resume.html">
+					<img src="images/resume.png" style= "width:8%; height:8%;" align="right" hspace = 1%>
+				</a>
+					<a href="about.html">
+					<img src="images/aboutme.png" style= "width:8%; height:8%;" align="right" hspace = 2% >
+				</a>
+			
 			</a>
 		</div>
 		
-		<h1> <center> Projects </center> </h1>
-		<h3> <center> C++ </center> </h3>
-		<h3> <center> Android </center> </h3>
-		<h3> <center> Javascript </center> </h3>
-		
-		<p>
-			<center>
-				<font size="3">CMPM 146 AI Group Project</font>
+		<div class = "title">
+			<center><img src="images/name.png" align = "middle">
 			</center>
-		</p>
+		</div>
+		
+		<center>
+			<div class = "imgContainer">
+				<img src="images/projects.png"  style=" height: 10%; width: 10%;">
+			</div>
+		</center>
+		
+		<div class="images">
+			<div class = "imgContainer">
+				<a href="ap.html">
+					<img src="images/ap.png"  style="float: left; width: 30%; margin-left: 4%; margin-right: 1%; margin-bottom: 0.5em;">
+				</a>
+			</div>
+			
+			<div class="imgContainer">
+				<a href="bees.html">
+					<img src="images/cmpm146.jpg"  style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+				</a>
+			</div>
+			
+			<div class = "imgContainer">
+				<a href="stealth.html">
+					<img src="images/cmps20.jpg"  style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+				</a>
+			</div>
+	
+		</div>
+		
+		
+			<div class = "imgContainer">
+				<a href="evanshire.html">
+					<img src="images/evanshire.png"  style="float: left; width: 30%; margin-left: 20%; margin-right: 1%; margin-bottom: 0.5em;">
+				</a>
+			</div>
+				
+			<div class = "imgContainer">
+				<a href="danceoff.html">
+					<img src="images/danceoff.png"  style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+				</a>
+			</div>
+		
+		
+		<br><br><br>
+		<img id="homeimage2" src="images/contactdets.png " style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"/>
+		
+		<center>
+	
+			<a href="https://github.com/hoyterrific">
+				<img id="homeimage2" src="images/github.png " style="float: right; width: 5%; margin-right: 1%; margin-bottom: 0.5em;"/>
+			</a>
 
-		<center>
-			<img src="images/cmpm146.jpg" alt="HTML tutorial" style="width:640px;height:334px;border:0;">
+			<a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
+				<img id="homeimage2" src="images/linkedin2.png" style="float: right; width: 5%; margin-right: 1%; margin-bottom: 0.5em;"/>
+			</a>
+			
+
 		</center>
-		
-		<p>
-			<center>
-				<font size="3"> Project Date - March 8th 2016 </font>
-			</center>
-			<center>
-				<font size="3"> <br> Team - Alex Hoyt, Kyle Cilia, Blake Williams and Gavin Mack</font>
-			</center>
-			<center>
-				<font size="3"> <br> AI project focused on coevolution and procedural generation. This group project was made my <br>
-								senior year at UCSC. Our goal for this project was to use Kate Compton's procedurally generated <br>
-								flower project as a base and then create bees that coevolve when a user selects a tree.<br> </font>
-			</center>
-		</p>
-		
-		<p>
-			<center>
-				<font size="3"> <br> CMPS 20 Javascript Game <br></font>
-			</center>
-		</p>
-		
-		<center>
-			<img src="images/cmps20.jpg" alt="HTML tutorial" style="width:640px;height:334px;border:0;">
-		</center>
-		
-		
 		
 	</body>
 </html>
